@@ -1,0 +1,11 @@
+﻿<Window x:Class="ProcessManager.ExeList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ExeList" Height="469" Width="300" Loaded="Window_Loaded" Closed="Window_Closed">
+    <Grid>
+        <ListBox Name="listBox" HorizontalAlignment="Left" Height="372" VerticalAlignment="Top" Width="292" SelectionChanged="listBox_SelectionChanged"/>
+        <Label Content="Full Path :" HorizontalAlignment="Left" Margin="0,378,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="textBox" HorizontalAlignment="Left" Height="50" Margin="61,378,0,0" IsReadOnly="True" TextWrapping="Wrap" Text="" BorderThickness="0" VerticalAlignment="Top" Width="231"/>
+
+    </Grid>
+</Window>
